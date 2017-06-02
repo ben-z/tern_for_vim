@@ -12,7 +12,7 @@ elseif has('python')
 endif
 
 if !exists('g:tern#command')
-  let g:tern#command = ["node", expand('<sfile>:h') . '/../node_modules/tern/bin/tern', '--no-port-file']
+  let g:tern#command = ["tern", '--no-port-file']
 endif
 
 if !exists('g:tern#arguments')
